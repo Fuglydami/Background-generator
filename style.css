@@ -45,3 +45,13 @@ h3 {
   text-transform: none;
   letter-spacing: 0.01em;
 }
+@media (max-width: 600px) {
+  h1 {
+    font: 600 2.5em "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    width: 100%;
+  }
+}
